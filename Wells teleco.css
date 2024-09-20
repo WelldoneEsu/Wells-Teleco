@@ -7,16 +7,7 @@
 html{
     font-size:62.5%;
 }
-@media(max-width:1100px){
-    html{
-        font-size:50%;
-    }
-}
-@media(max-width:780px){
-    html{
-        font-size:50%;
-    }
-}
+
 .top{
     position:relative;
     background: black;
@@ -167,7 +158,7 @@ nav{
     .bill{
         position: absolute;
         top:60rem;
-        right: 10rem;
+        left: 90rem;
         text-align: center;
     }
     .vtu{
@@ -185,7 +176,7 @@ nav{
     .chat{
         position: absolute;
         top:80rem;
-        right: 10rem;
+        left: 90rem;
         text-align: center;
     }
     .our{
@@ -244,4 +235,118 @@ nav{
     font-size: 1.3rem;
     text-align: center;
 
+  }
+  .burger {
+    margin-left: 15%;
+    font-size: 2rem;
+    cursor: pointer;
+    display: none;
+  }
+  
+  
+ 
+  @media(max-width:768px){
+    body{
+        overflow-x: hidden;
+    }
+    html{
+        font-size:50%;
+    }
+    .back img{
+        height: 50vh;
+    }
+    .log,.reg{
+        top:25rem;
+    }
+    .dev{
+        left:-20rem;
+        top:-3rem;
+        position: relative;
+        font-size: 1.2rem;
+    }
+    .tv,.educ{
+        left:25rem;
+    }
+    h1.fa{
+        font-size: 1.5rem;
+    }
+    p.fo{
+        font-size: 1rem;
+    }
+ 
+table{
+    top:140rem;
+}
+footer{
+    top:20rem;
+}
+.last{
+    left:10rem;
+}
+    
+    .we{
+        text-align: center;
+        left:25%;
+    }
+        .our{text-align:center;
+            top:130rem;
+            left:15%;
+        }
+    
+    .cab,.vtu{
+        left:2rem;
+    }
+    .bill{
+        left:2rem;
+        top:100rem;
+    }
+    .chat{
+        left:25rem;
+        top:100rem;
+    }
+    .sect{
+        height:10vh;
+    }
+    .nav-links {
+        display: none;
+        flex-direction: column;
+        position: absolute;
+        background-color: #00cc5f;
+        top: 30px;
+       
+        left: 0;
+        position: relative;
+        width: 109vw;
+        text-align: center;
+      }
+      
+    
+      .nav-links.active {
+        display: flex;
+      }
+    
+      .nav-links li {
+        margin: 1rem 0;
+      }
+      .burger {
+        position: relative;
+        left:80%;
+        font-size: 4rem;
+        display: block;
+      }
+  }
+  @media  (min-width:768px) and (max-width: 1024px){
+    body{
+        overflow-x: hidden;
+    }
+    html{
+        font-size:50%;
+    }
+    /*.we{
+        left:25%;
+    }
+    .dev{
+        position: relative;
+        left:-20rem;
+    }*/
   }
